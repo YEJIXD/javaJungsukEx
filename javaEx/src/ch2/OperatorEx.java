@@ -11,5 +11,4 @@ public class OperatorEx {
 		++i;
 		System.out.println(i);
 	}
-
 }
