@@ -17,5 +17,4 @@ public class OverflowEx {
 		System.out.println("cMax = " + (int)cMax);
 		System.out.println("cMax + 1 = " + (int)++cMax);
 	}
-
 }
