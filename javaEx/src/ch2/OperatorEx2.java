@@ -1,16 +1,15 @@
-package ch2;
+package src.ch2;
 
 public class OperatorEx2 {
 
 	public static void main(String[] args) {
 		int i = 5, j = 0;
 		j = i++;
-		System.out.println("j´Â i++ ½ÇÇà ÈÄ, i = " + i + ", j = " + j);
+		System.out.println("jï¿½ï¿½ i++ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, i = " + i + ", j = " + j);
 		
 		i = 5;
 		j = 0;
-		
 		j = ++i;
-		System.out.println("j´Â ++i ½ÇÇà ÈÄ, i = " + i + ", j = " + j);
+		System.out.println("jï¿½ï¿½ ++i ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, i = " + i + ", j = " + j);
 	}
 }
