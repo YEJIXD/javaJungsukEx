@@ -1,7 +1,7 @@
 package src.ch14;
 
 @FunctionalInterface
-public interface MyFunction {
+interface MyFunction {
     void run();                 //public abstract void run();
 }
 
