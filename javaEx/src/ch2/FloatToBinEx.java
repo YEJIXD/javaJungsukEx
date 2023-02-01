@@ -1,4 +1,4 @@
-package ch2;
+package src.ch2;
 
 public class FloatToBinEx {
 
@@ -7,6 +7,6 @@ public class FloatToBinEx {
 		int i = Float.floatToIntBits(f);
 		
 		System.out.printf("%f%n ", f);
-		System.out.printf("%X%n", i);		// 16Áø¼ö·Î Ãâ·Â
+		System.out.printf("%X%n", i);		// 16ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 	}
 }

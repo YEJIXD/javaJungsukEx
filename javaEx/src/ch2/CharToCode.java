@@ -1,14 +1,14 @@
-package ch2;
+package src.ch2;
 
 public class CharToCode {
 
 	public static void main(String[] args) {
-		char ch = 'A';													// char ch = 65;
-		int code = (int)ch;												// ch¿¡ ÀúÀåµÈ °ªÀ» int Å¸ÀÔÀ¸·Î º¯È¯ÇÏ¿© ÀúÀåÇÑ´Ù.
+		char ch = 'A';						// char ch = 65;
+		int code = (int)ch;					// chï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ int Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
 		
 		System.out.printf("%c = %d (%#X)%n", ch, code, code);			
 		
-		char hch = '°¡';													// char hch = 0xAC00;
-		System.out.printf("%c = %d(%#X)%n", hch, (int)hch, (int)hch);
+		//char hch = "ê°€";					// char hch = 0xAC00;
+		//System.out.printf("%c = %d(%#X)%n", hch, (int)hch, (int)hch);
 	}
 }

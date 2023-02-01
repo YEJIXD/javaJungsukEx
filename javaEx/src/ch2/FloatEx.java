@@ -1,4 +1,4 @@
-package ch2;
+package src.ch2;
 
 public class FloatEx {
 
@@ -8,7 +8,7 @@ public class FloatEx {
 		double d = 9.12345678901234567890d;
 		
 		System.out.printf("		123456789012345678901234%n");
-		System.out.printf("f	: %f%n ", f);					// ¼Ò¼öÁ¡ ÀÌÇÏ 6Â°ÀÚ¸®±îÁö Ãâ·Â
+		System.out.printf("f	: %f%n ", f);					// ï¿½Ò¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 6Â°ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 		System.out.printf("f	: %24.20f%n", f);
 		System.out.printf("f2	: %24.20f%n", f2);
 		System.out.printf("d	: %24.20f%n", d);
