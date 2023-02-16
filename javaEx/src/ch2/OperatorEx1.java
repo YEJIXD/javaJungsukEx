@@ -1,6 +1,6 @@
-package ch2;
+package src.ch2;
 
-public class OperatorEx {
+public class OperatorEx1 {
 
 	public static void main(String[] args) {
 		int i = 5;
